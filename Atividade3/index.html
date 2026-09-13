@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desing Responsivo</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        
+        <section class="home">
+            <img src="./images/monitor e celular.png" class="icon-computador">
+            <h1 class="home-title">
+            Desing responsivo
+            </h1>
+
+            <div class="nav-home">
+                <a href="#introducao" class="button">Introdução</a>
+                <a href="#componentes" class="button">Componentes</a>
+                <a href="#estrategia" class="button">Estratégias</a>
+                <a href="#conclusao" class="button">Conclusão</a>
+                <a href="#referencias" class="button">Referências</a>
+            </div>
+        </section>
+    </header>        
+        <main>
+
+            <section class="section-intro" id="introducao">
+                <div class="div-intro-texto">
+                    <div class="div-intro-title">
+                        <img src="./images/livro.png" class="icon-livro">
+                        <h2 class="title-intro"> 
+                            Introdução
+                        </h2>
+                    </div>
+                    <div class="div-intro-p">
+                        <p class="intro-p">
+                        O design responsivo é uma abordagem de desenvolvimento web que permite que um único site 
+                        adapte seu <b>layout, imagens e conteúdo</b> para diversos tamanhos de tela
+                        sem perder sua qualidade.
+                        </p>
+                        <p class="intro-p">                    
+                        <b>Ethan Marcotte</b> introduziu o conceito de design responsivo para a web em 2010, estabelecendo-o
+                        como uma abordagem transformadora para a criação de experiências digitais que se adaptam
+                        perfeitamente à crescente variedade de dispositivos.
+                        </p>
+                        <p class="intro-p">
+                        A sua estrutura lançou as bases para três componentes técnicos essenciais:
+                        <b>layouts de grade fluida, imagens flexíveis e consultas de mídia.</b>
+                        Antes do design responsivo (RWD), os desenvolvedores eram obrigados a criar várias versões
+                        de um site para que ele pudesse ser acessado de diferentes dispositivos, como
+                        iPad, Blackberry, Kindle e iPhone.
+                        </p>
+                    </div>
+                </div>
+                <img src=".\images\ethan.webp" class="img-ethan" title="Ethan Marcotte">
+            </section>
+
+            <section class="section-componentes" id="componentes">
+                    <div class="div-comp-title">
+                        <img src="./images/componentes.png" class="icon-comp">
+                        <h2 class="title-componentes">
+                            Componentes técnicos principais
+                        </h2>
+                    </div>
+                    <div class="div-componentes">
+                        <div class="div-comp">
+                            <div class="div-comp-sub">
+                                <h4 class="subtitle-componentes">
+                                    2.1 Layouts de grade fluida.
+                                </h4>
+                            </div>
+                            <p class="componentes-p">
+                                Nessa técnica se substituem as medidas fixas em pixels por unidades relativas e percentagens, garantindo que todos os elementos da página se escalem proporcionalmente entre si.
+                            </p>
+                        </div>
+                        <div class="div-comp">
+                            <div class="div-comp-sub">
+                                <h4 class="subtitle-componentes">
+                                    2.2 Imagens flexíveis.
+                                </h4>
+                            </div>
+                            <p class="componentes-p">
+                                É possível evitar a alteração de imagens ao esticar ou estreitar as dimensões do dispositivo ou tela, adaptando-se para diferentes resoluções.
+                            </p>
+                        </div>
+                        <div class="div-comp">
+                            <div class="div-comp-sub">
+                                <h4 class="subtitle-componentes">
+                                    2.3 Consultas da mídia.
+                                </h4>
+                            </div>
+                            <p class="componentes-p">
+                                As media queries podem definir breakpoints, que aplicam código CSS condicional, permitindo que o layout se reorganize automaticamente para portáteis, tablets ou telemóveis.
+                            </p>
+                        </div>
+                        <img src="./images/engrenagens.png" class="img-engrenagens">
+                    </div>
+            </section>
+
+            <section class="section-estrategia" id="estrategia">
+                <div class="div-estra-texto">
+                    <div class="div-estra-title">
+                        <img src="./images/alvo.png" class="icon-alvo">
+                        <h2 class="title-estrategia">
+                            Estratégia de Design Responsivo
+                        </h2>
+                    </div>
+                    <div class="div-estrategia">
+                        <p class="estrategia-p">
+                            Dentro do paradigma responsivo, as estratégias dividem-se entre a construção de layouts fluidos do zero e a reengenharia de sites estáticos existentes.
+                        </p>
+                        <p class="estrategia-p">
+                            A estratégia <b>“mobile-first”</b> prioriza o design para uma tela mais restritiva primeiro, adicionando progressivamente complexidade para ecrãs maiores.	Essa filosofia evita que usuários móveis baixem estilos e ativos pesados ​​de desktop. O resultado é um carregamento mais rápido e uma melhor usabilidade em dispositivos com largura de banda e poder de processamento limitados.
+                        </p>
+                        <p class="estrategia-p">
+                            A <b>degradação graciosa</b> parte da versão completa para desktop e omite, condensa ou remapeia elementos para ecrãs mais pequenos. Aplicar design responsivo a sites existentes frequentemente exige uma reengenharia maior devido ao conceito subjacente de grade fluida.
+                        </p>
+                    </div>
+                </div>
+                <img src="./images/dispositivos.png" class="img-dispositivos">
+            </section>
+
+            <section class="section-conclusao" id="conclusao">
+                <div class="div-conc-texto">
+                    <div class="div-conc-title">
+                        <img src="./images/concluido.png" class="icon-concluido">
+                        <h2 class="title-conclusao">
+                            Conclusão
+                        </h2>
+                    </div>
+                    <div class="div-conclusao">
+                        <p class="conclusao-p">
+                            O design responsivo se tornou um elemento fundamental para o desenvolvimento web, pois ele não somente auxiliou na adaptação do conteúdo para diversos dispositivos como resoluções e tamanhos de telas distintos, mas também melhorou a experiência e satisfação do usuário e estratégias como “mobile first” assegura um melhor desempenho e tempo de resposta em dispositivos limitados.
+                        </p>
+                    </div>
+                </div>
+                    <img src="./images/computador e outros.png" class="img-computador">
+            </section>
+
+            <section class="section-referencias" id="referencias">
+                <div class="div-ref-title">
+                     <h2 class="title-referencias">
+                        Referências
+                    </h2>
+                </div>
+                <div class="div-referencias">
+                    <div class="div-ref">
+                        <div class="div-ref-sub">
+                            <h4 class="subtitle-referencias">
+                                INTRODUÇÃO:
+                            </h4>
+                        </div>
+                        <p class="referencias-p">
+                            L. Giurgiu; Ilie Gligorea. Técnicas de design responsivo para web. Conferência internacional ORGANIZAÇÃO BASEADA NO CONHECIMENTO, Romania, V. XXIII, N.03, 2017.
+                        </p>
+                        <p class="referencias-p">    
+                            M. Swami; Soumya Singh; Abhay Sharma. Uma análise sobre design responsivo para web. Artigo apresentado na Conferência Nacional sobre Tecnologia da Informação e Aplicações Digitais, 2025.
+                        </p>
+                        <p class="referencias-p">
+                            Noorkaran Bhanarkar; Aditi Paul; Dr. Ashima Mehta. Design responsivo para web e seu impacto na experiência do usuário. Revista Internacional de Pesquisa Avançada em Ciência, Comunicação e Tecnologia, V. 03, 4º ed., abril de 2023.
+                        </p>
+                    </div>
+                    <div class="div-ref">
+                        <div class="div-ref-sub">
+                            <h4 class="subtitle-referencias">
+                                COMPONENTES TÉCNICOS PRINCIPAIS:
+                            </h4>
+                        </div>                         
+                        <p class="referencias-p">
+                            L. Filippova; Rostislav Svidelskyi. Pesquisa sobre as principais abordagens para o desenvolvimento de websites responsivos e sua aplicação prática. Disponível em: <a href="https://journals.uran.ua/tarp/article/view/86086">https://journals.uran.ua/tarp/article/view/86086</a>
+                        </p>
+                        <p class="referencias-p">
+                            Waseem I. Bader; Abdelaziz I. Hammouri. Técnicas de design responsivo para web. Revista Internacional de Aplicações de Computadores, V. 150, 2º ed., setembro de 2016.
+                        </p>
+                    </div>
+                    <div class="div-ref">
+                        <div class="div-ref-sub">
+                            <h4 class="subtitle-referencias">
+                                ESTRATÉGIAS DE DESIGN RESPONSIVO:
+                            </h4>
+                        </div>
+                        <p class="referencias-p">
+                            M. Swami; Soumya Singh; Abhay Sharma. Uma análise sobre design responsivo para web. Artigo apresentado na Conferência Nacional sobre Tecnologia da Informação e Aplicações Digitais, 2025.
+                        </p>
+                        <p class="referencias-p">
+                            J. Clark. Design responsivo para web na prática. Rowman & Littlefield, Lanham 2015.
+                        </p>
+                        <p class="referencias-p">
+                            L. Filippova; Rostislav Svidelskyi. Pesquisa sobre as principais abordagens para o desenvolvimento de websites responsivos e sua aplicação prática. Disponível em: <a href="https://journals.uran.ua/tarp/article/view/86086">https://journals.uran.ua/tarp/article/view/86086</a>
+                        </p>
+                    </div>     
+                </div>
+                
+            </section>
+
+        </main>
+</body>
+</html>

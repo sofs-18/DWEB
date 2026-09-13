@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 95px;
+  background-color: #f3e0e0;
+}
+
+body{
+  margin-top: 90px;
+  margin-bottom: 40px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+main{
+  color:#24305d;
+}
+
+/*NAVEGADOR*/
+
+.home{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #24305d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.icon-computador{
+  width: 50px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.home-title{
+  margin-right: 400px;
+  color: #ffffff;
+}
+
+.button{
+  text-decoration: none;
+  border: 0px;
+  background-color: #606f9b;
+  color: #ffffff;
+  border-radius: 35px;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: %;
+}
+
+.button:hover{
+  background-color: #f61193;
+  color: #000000;
+}
+
+/*INTRODUÇÃO*/
+
+.section-intro{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #faedf6;
+  padding: 15px;
+  border-radius: 40px;
+}
+
+.icon-livro{
+  width: 40px;
+}
+
+.div-intro-title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+.div-intro-p{
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+  text-indent: 15px;
+  width: 1000px;
+}
+
+.img-ethan{
+  margin-top: 10px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+
+/*COMPONENTES*/
+
+.section-componentes{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #cce1fe;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.icon-comp{
+  width: 40px;
+}
+
+.div-comp-title{
+  display: flex;
+  margin-left: 20px;
+  gap: 10px;
+  font-size: large;
+}
+
+.div-componentes{
+  display: flex;
+}
+
+.div-comp-sub{
+  font-size: large;
+}
+
+.div-comp{
+  margin-top: 15px;
+  text-align: justify;
+  text-indent: 15px;
+  width: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 16px;
+}
+
+
+.img-engrenagens{
+  width: 180px;
+  margin: auto;
+
+}
+
+/*ESTRATÉGIA*/
+
+.section-estrategia{
+  display: flex;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #e8f3f5;
+  padding: 25px;
+  border-radius: 40px;
+}
+
+.icon-alvo{
+  width: 48px;
+}
+
+.div-estra-title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+.div-estrategia{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-indent: 15px;
+  width: 1000px;
+}
+
+.img-dispositivos{
+  width: 200px;
+  align-items: center;
+  margin-left: 50px;
+ object-fit:contain;
+}
+
+/*CONCLUSÃO*/
+
+.section-conclusao{
+  display: flex;
+}
+
+.div-conc-texto{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #eceefd;
+  padding: 25px;
+
+  border-radius: 40px;
+}
+
+.icon-concluido{
+  width: 40px;
+}
+
+.div-conc-title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+.div-conclusao{
+  margin-top: 15px;
+  margin-left: 50px;
+  text-align: justify;
+  text-indent: 15px;
+  width: 550px;
+}
+
+.img-computador{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 150px;
+  width: 500px;
+}
+/*REFERÊNCIAS*/
+
+.section-referencias{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #fbebf5;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.div-ref-title{
+  display: flex;
+  margin-left: 20px;
+  gap: 10px;
+  font-size: large;
+}
+
+.div-ref-sub{
+  font-size: large;
+  text-indent: -15px;
+}
+
+.div-ref{
+  margin-top: 15px;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 16px;
+}
+
+a{
+  color: #f61193;
+}
