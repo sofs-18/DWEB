@@ -1,0 +1,346 @@
+*{
+  margin: 0px;
+}
+
+/*CONFIGURAÇÃO DOS BLOCOS DA PÁGINA*/
+
+.container-principal{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px 1060px 50px;
+  grid-template-areas: 
+  'header'
+  'main'
+  'footer';
+}
+
+
+/*TOPO DA PÁGINA*/
+
+header{
+  grid-area: header;
+  background-color: #475c43;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  color: #ffffff;
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+
+/*CONTEÚDO PRINCIPAL DA PÁGINA*/
+
+main{
+  grid-area: main;
+  padding: 10px;
+  font-family: "Noto Sans Osmanya", sans-serif;
+}
+
+.container-news{
+  display: grid;
+  gap: 5px;
+  margin: 30px 5px 0px 5px;
+  grid-template-columns:  150px auto auto 350px 150px;
+  grid-template-rows: 400px 200px 200px 200px;
+  grid-template-areas: 
+  'x a a a y'
+  'x b b c y'
+  'x d d c y'
+  'x e f f y';
+}
+
+/*ANÚNCIOS*/
+
+.x{
+  grid-area: x;
+}
+
+.img-acad{
+  width: 145px;
+  height: 1010px;
+}
+
+.y{
+  grid-area: y;
+}
+
+.img-viag{
+  width: 145px;
+  height: 1010px;
+}
+
+/*NOTÍCIAS*/
+
+.box{
+  background-color: #ffffff;
+  border-style: groove;
+  border-left: none;
+  border-right: none;
+}
+
+/*GATINHO NA ARVORE*/
+.a{
+  grid-area: a;
+  display: flex;
+}
+
+.a-texto{
+  margin: 20px 0px 0px 35px;
+}
+
+.a-sub{
+  font-size: 22px;
+  font-family: "Cinzel", serif;
+  color: #d80101;
+}
+
+.a-p{
+  font-size: 20px;
+  width: 600px;
+  text-indent: 20px;
+  margin: 25px 0px 0px 0px;
+  text-align: justify;
+}
+
+.a-leiamais{
+  font-size: 15px;
+  text-indent: 30px;
+  margin-top: 7px;
+}
+
+.a-leiamais:hover{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.gatinho{
+  display: flex;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 10px;
+  object-fit: cover;
+  width: 500px;
+  height: 380px;
+}
+
+/*TATIANA SAMPAIO*/
+.b{
+  grid-area: b;
+  display: flex;
+}
+
+.b-texto{
+  margin: 10px 0px 0px 35px;
+}
+
+.b-sub{
+  font-size: 22px;
+  font-family: "Cinzel", serif;
+  color: #d80101;
+}
+
+.b-p{
+  width: 500px;
+  font-size: 15px;
+  text-indent: 20px;
+  margin: 5px 0px 0px 0px;
+  text-align: justify;
+}
+
+.b-leiamais{
+  font-size: 15px;
+  text-indent: 30px;
+  margin-top: 17px;
+}
+
+.b-leiamais:hover{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.tatiana{
+  display: flex;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 10px;
+  object-fit: cover;
+  width: 230px;
+  height: 180px;
+}
+
+/*NOTÍCIAS INTERNACIONAIS*/
+.c{
+  grid-area: c;
+}
+
+.c-sub{
+  font-size: 17px;
+  font-family: "Cinzel", serif;
+  color: #d80101;
+}
+
+.russia-div{
+  display: flex;
+  margin: 3px 0 0px 0;
+}
+
+.eua-div{
+  display: flex;
+  margin: 15px 0 0px 0;
+}
+
+.c-p{
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.russia{
+  object-fit: cover;
+  margin-right: auto;
+  width: 220px;
+  height: 150px;
+}
+
+.eua{
+  object-fit: cover;
+  margin-right: auto;
+  width: 220px;
+  height: 150px;
+}
+
+.c-leiamais{
+  font-size: 15px;
+}
+
+.c-leiamais:hover{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+/*PROGRAMAÇÃO DA SETEC*/
+.d{
+  grid-area: d;
+  display: flex;
+}
+
+.d-texto{
+  margin: 10px 0px 0px 35px;
+}
+
+.d-sub{
+  font-size: 22px;
+  font-family: "Cinzel", serif;
+  color: #d80101;
+}
+
+.d-p{
+  width: 750px;
+  font-size: 15px;
+  text-indent: 20px;
+  margin: 5px 0px 0px 0px;
+}
+
+.d-leiamais{
+  font-size: 15px;
+  text-indent: 30px;
+  margin-top: 3px;
+}
+
+.d-leiamais:hover{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+/*RECEITA DE BOLO*/
+
+.e{
+  grid-area: e;
+  display: flex;
+}
+
+.e-texto{
+  margin: 10px 5px 0px 35px;
+}
+
+.e-sub{
+  font-size: 22px;
+  font-family: "Cinzel", serif;
+  color: #d80101;
+}
+
+.e-p{
+  width: 550px;
+  font-size: 15px;
+  text-align: justify;
+  text-indent: 20px;
+  margin: 5px 0px 0px 0px;
+}
+
+.e-leiamais{
+  font-size: 15px;
+  text-indent: 30px;
+}
+
+.e-leiamais:hover{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.bolo{
+  display: flex;
+  align-self: center;
+  margin-left: auto;
+  object-fit: cover;
+  width: 230px;
+  height: 180px;
+}
+
+/*PROMOÇÕES VESTIDO*/
+
+.f{
+  grid-area: f;
+  display: flex;
+}
+
+.vestido{
+  display: flex;
+  align-self: center;
+  margin-left: 20px;
+  object-fit: cover;
+  width: 200px;
+  height: 180px;
+}
+
+.f-leiamais{
+  font-size: 20px;
+  text-align: ;
+  width: 130px;
+}
+
+.f-leiamais:hover{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+
+/*RODAPÉ*/
+
+footer{
+  display: flex;
+  align-items: center;
+  grid-area: footer;
+  background-color: #475c43;
+  color: #ffffff;
+}
