@@ -1,0 +1,33 @@
+.pedra{
+  border-style: none;
+  background-color: white;
+}
+.pedra-img{
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.papel{
+  border-style: none;
+  background-color: white;
+}
+.papel-img{ 
+  object-fit: cover;
+  width: 300px;
+  height: 300px;   
+  border-radius: 50%;
+}
+
+.tesoura{
+  border-style: none;
+  background-color: white;
+}
+.tesoura-img{
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+
+}
